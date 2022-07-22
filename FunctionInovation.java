@@ -3,8 +3,8 @@ public class FunctionInovation {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		DairyCollection dairy =new DairyCollection();
-		dairy.startCollectMilk();
+        DairyCollection dairy =new DairyCollection();
+        dairy.startCollectMilk();
         dairy.calculateplantsCollection(60, 70);
         System.out.println(dairy.avarageMilkCollection(60,70));
         System.out.println(dairy.avaragecostofmilk());
